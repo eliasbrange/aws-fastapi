@@ -1,0 +1,8 @@
+.aws-sam
+cdk.out
+.idea
+.vscode
+.venv
+.coverage
+__pycache__
+.pytest_cache
