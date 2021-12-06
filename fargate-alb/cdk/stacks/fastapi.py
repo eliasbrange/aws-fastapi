@@ -1,14 +1,15 @@
-from aws_cdk import core
+from aws_cdk import Stack
+from constructs import Construct
 
 import aws_cdk.aws_ec2 as ec2
 import aws_cdk.aws_ecs as ecs
 import aws_cdk.aws_ecs_patterns as ecs_patterns
 
 
-class FastAPIStack(core.Stack):
+class FastAPIStack(Stack):
     def __init__(
         self,
-        scope: core.Construct,
+        scope: Construct,
         id: str,
         **kwargs,
     ) -> None:

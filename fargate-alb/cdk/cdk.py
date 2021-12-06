@@ -1,8 +1,8 @@
-from aws_cdk import core
+from aws_cdk import App
 
 from stacks.fastapi import FastAPIStack
 
-app = core.App()
+app = App()
 
 FastAPIStack(app, "FastAPIStack")
 app.synth()
