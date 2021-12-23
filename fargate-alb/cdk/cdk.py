@@ -1,6 +1,6 @@
 from aws_cdk import App
 
-from stacks.fastapi import FastAPIStack
+from fastapi import FastAPIStack
 
 app = App()
 
